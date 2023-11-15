@@ -86,11 +86,7 @@ function ExamplesNavbar() {
                 About
               </NavLink>
             </NavItem>
-            <NavItem>
-              <NavLink href="#Inspirational">
-               <i class="fa fa-book" aria-hidden="true"></i>Inspiration
-              </NavLink>
-            </NavItem>
+            
             <NavItem>
               <NavLink href="#speakers">
                 <i class="fa fa-user-circle" aria-hidden="true"></i>Key Speakers
@@ -109,6 +105,11 @@ function ExamplesNavbar() {
             <NavItem>
               <NavLink href="#Itinerary">
               <i class="fa fa-calendar" aria-hidden="true"></i> Itinerary
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="#Registration">
+               <i class="fa fa-address-book-o" aria-hidden="true"></i>Registration
               </NavLink>
             </NavItem>
             <NavItem>

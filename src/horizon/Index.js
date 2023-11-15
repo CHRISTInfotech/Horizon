@@ -1028,7 +1028,7 @@ function MainIndex() {
                     </a>
                     <p
                       className="card-description text-justify"
-                      style={{ color: "#000000" }}
+                      style={{ color: "#000000",minHeight:"180px" }}
                     >
                       She is a postgraduate in Commerce and has previously
                       served as the Senior Associate at Manipal Hospitals,
@@ -1557,7 +1557,7 @@ function MainIndex() {
           </Container>
         </div>
 
-        <div className="section ">
+        <div className="section " id="Registration">
           <Container>
             <Row>
               <Col className="text-left text-black" md={12}>
@@ -1594,17 +1594,17 @@ function MainIndex() {
                   .
                 </p>
                 <Button
-                  className="btn-round ml-5 mt-3"
+                  className="btn-round ml-1 mt-3"
                   color="default"
                   type="button"
                 >
                   <i class="fa fa-rupee" aria-hidden="true"></i>
 
-                  <a
+                  <a style={{ fontWeight: "bolder" }}
                     href="https://feebook.southindianbank.com/FeeBookUser/org?id=7"
                     className="text-decoration-none text-white"
                   >
-                    Register Here
+                    Payment Link
                   </a>
                 </Button>
               </Col>

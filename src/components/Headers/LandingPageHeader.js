@@ -37,7 +37,7 @@ function LandingPageHeader() {
         <Container>
           <div className="motto text-center">
             <h1 style={{fontWeight:"bold"}}>H.O.R.I.Z.O.N</h1>
-            <h3>Harnessing Our Resources, Inspiring Zeal, Opening New Doors</h3>
+            <h3 style={{fontWeight:"bolder"}}>Harnessing Our Resources, Inspiring Zeal, Opening New Doors</h3>
             <h5 className="mt-3">
               Immerse yourself in an exclusive Executive Wellness Retreat
               meticulously curated amidst the breathtaking embrace of nature’s
