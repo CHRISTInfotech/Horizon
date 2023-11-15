@@ -82,34 +82,34 @@ function ExamplesNavbar() {
           <Nav navbar>
             <NavItem>
               <NavLink href="#about">
-              <i class="fa fa-info" aria-hidden="true"></i>
+              <i className="fa fa-info" aria-hidden="true"></i>
                 About
               </NavLink>
             </NavItem>
             
             <NavItem>
               <NavLink href="#speakers">
-                <i class="fa fa-user-circle" aria-hidden="true"></i>Key Speakers
+                <i className="fa fa-user-circle" aria-hidden="true"></i>Key Speakers
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="#contact">
-               <i class="fa fa-phone" aria-hidden="true"></i> Contact
+               <i className="fa fa-phone" aria-hidden="true"></i> Contact
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="#gallery">
-               <i class="fa fa-photo" aria-hidden="true"></i> Gallery
+               <i className="fa fa-photo" aria-hidden="true"></i> Gallery
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="#Itinerary">
-              <i class="fa fa-calendar" aria-hidden="true"></i> Itinerary
+              <i className="fa fa-calendar" aria-hidden="true"></i> Itinerary
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="#Registration">
-               <i class="fa fa-address-book-o" aria-hidden="true"></i>Registration
+               <i className="fa fa-address-book-o" aria-hidden="true"></i>Registration
               </NavLink>
             </NavItem>
             <NavItem>
@@ -118,7 +118,7 @@ function ExamplesNavbar() {
                 download
                 target="_blank"
               >
-               <i class="fa fa-download" aria-hidden="true"></i>Schedule
+               <i className="fa fa-download" aria-hidden="true"></i>Schedule
               </NavLink>
             </NavItem>
             {/* <NavItem>

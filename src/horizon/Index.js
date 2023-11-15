@@ -1598,7 +1598,7 @@ function MainIndex() {
                   color="default"
                   type="button"
                 >
-                  <i class="fa fa-rupee" aria-hidden="true"></i>
+                  <i className="fa fa-rupee" aria-hidden="true"></i>
 
                   <a style={{ fontWeight: "bolder" }}
                     href="https://feebook.southindianbank.com/FeeBookUser/org?id=7"
