@@ -57,7 +57,7 @@ function ExamplesNavbar() {
             data-placement="bottom"
             to="/"
            
-            title="Coded by Creative Tim"
+            title="CHRIST"
             tag={Link}
           >
             HORIZON
