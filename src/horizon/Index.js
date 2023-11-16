@@ -165,7 +165,7 @@ function MainIndex() {
                   </div>
                   <div className="description">
                     <h4
-                      className="info-title mb-2"
+                      className="info-title mb-3"
                       style={{ fontWeight: "bolder" }}
                     >
                       What You Can Expect From This Program
@@ -206,7 +206,7 @@ function MainIndex() {
                     <i className="nc-icon nc-bulb-63" />
                   </div>
                   <div className="description">
-                    <h4 className="info-title" style={{ fontWeight: "bolder" }}>
+                    <h4 className="info-title mb-3" style={{ fontWeight: "bolder" }}>
                       Methodology & Structure
                     </h4>
                     <ul className="text-left mt-2">
@@ -289,7 +289,7 @@ function MainIndex() {
           <Container>
             <Row className="text-white">
               <Col md={12}>
-                <h2 className="text-right" style={{ fontWeight: "bolder" }}>
+                <h2 className="text-right mb-3" style={{ fontWeight: "bolder" }}>
                   CHRIST Lavasa Campus
                 </h2>
                 <p className="text-justify">
@@ -308,7 +308,7 @@ function MainIndex() {
               </Col>
               <Col md={12}>
                 <h2
-                  className="text-right mt-5"
+                  className="text-right mt-5 mb-3"
                   style={{ fontWeight: "bolder" }}
                 >
                   CHRIST Consulting
@@ -324,7 +324,7 @@ function MainIndex() {
               </Col>
               <Col md={12}>
                 <h2
-                  className="text-right mt-5"
+                  className="text-right mt-5 mb-3"
                   style={{ fontWeight: "bolder" }}
                 >
                   Centre for Experiential Learning
@@ -356,7 +356,7 @@ function MainIndex() {
                 </h2>
               </Col>
             </Row>
-            <Row className="justify-content-center align-items-center">
+            <Row className="justify-content-center align-items-center mb-5">
               <Col md={8}>
                 <h3
                   className="text-left text-primary mb-2"
@@ -387,7 +387,7 @@ function MainIndex() {
               </Col>
             </Row>
 
-            <Row className="justify-content-center align-items-center">
+            <Row className="justify-content-center align-items-center mb-5">
               <Col md={4}>
                 <img
                   className="img-fluid img-rounded img-responsive"
@@ -943,7 +943,7 @@ function MainIndex() {
 
         <div className="section section-team text-center" id="contact">
           <Container>
-            <h2 className="title">Organising Committee</h2>
+            <h2 className="title" style={{ fontWeight: "bold" }}>Organising Committee</h2>
             <Row>
               <Col md={6}>
                 <Card className="card-profile card-plain">
@@ -1561,7 +1561,7 @@ function MainIndex() {
           <Container>
             <Row>
               <Col className="text-left text-black" md={12}>
-                <h3 className="mb-4 text-center">REGISTRATION</h3>
+                <h3 className="mb-4 text-center" style={{ fontWeight: "bold" }}>REGISTRATION</h3>
                 <p className="text-justify">
                   <span style={{ fontWeight: "bold" }}>
                     Rs 25,000 + GST per delegate
