@@ -206,7 +206,10 @@ function MainIndex() {
                     <i className="nc-icon nc-bulb-63" />
                   </div>
                   <div className="description">
-                    <h4 className="info-title mb-3" style={{ fontWeight: "bolder" }}>
+                    <h4
+                      className="info-title mb-3"
+                      style={{ fontWeight: "bolder" }}
+                    >
                       Methodology & Structure
                     </h4>
                     <ul className="text-left mt-2">
@@ -289,7 +292,10 @@ function MainIndex() {
           <Container>
             <Row className="text-white">
               <Col md={12}>
-                <h2 className="text-right mb-3" style={{ fontWeight: "bolder" }}>
+                <h2
+                  className="text-right mb-3"
+                  style={{ fontWeight: "bolder" }}
+                >
                   CHRIST Lavasa Campus
                 </h2>
                 <p className="text-justify">
@@ -943,7 +949,9 @@ function MainIndex() {
 
         <div className="section section-team text-center" id="contact">
           <Container>
-            <h2 className="title" style={{ fontWeight: "bold" }}>Organising Committee</h2>
+            <h2 className="title" style={{ fontWeight: "bold" }}>
+              Organising Committee
+            </h2>
             <Row>
               <Col md={6}>
                 <Card className="card-profile card-plain">
@@ -1028,7 +1036,7 @@ function MainIndex() {
                     </a>
                     <p
                       className="card-description text-justify"
-                      style={{ color: "#000000",minHeight:"180px" }}
+                      style={{ color: "#000000", minHeight: "180px" }}
                     >
                       She is a postgraduate in Commerce and has previously
                       served as the Senior Associate at Manipal Hospitals,
@@ -1561,7 +1569,9 @@ function MainIndex() {
           <Container>
             <Row>
               <Col className="text-left text-black" md={12}>
-                <h3 className="mb-4 text-center" style={{ fontWeight: "bold" }}>REGISTRATION</h3>
+                <h3 className="mb-4 text-center" style={{ fontWeight: "bold" }}>
+                  REGISTRATION
+                </h3>
                 <p className="text-justify">
                   <span style={{ fontWeight: "bold" }}>
                     Rs 25,000 + GST per delegate
@@ -1571,7 +1581,6 @@ function MainIndex() {
                 </p>
                 <p>
                   <span className="" style={{ fontWeight: "bold" }}>
-                    
                     1 day pass - Rs 14,000 + GST -
                   </span>{" "}
                   (Includes the sessions for that day, food and refreshments)
@@ -1581,7 +1590,7 @@ function MainIndex() {
                   for the entire visionary voyage.
                 </p>
                 <p className="text-justify">
-                  For Corporate Group Discounts {" "}
+                  For Corporate Group Discounts{" "}
                   <span style={{ fontWeight: "bold" }}>
                     Please call: 080 4012 9724 / 9157 / 9958 / 9700
                   </span>
@@ -1600,7 +1609,8 @@ function MainIndex() {
                 >
                   <i className="fa fa-rupee" aria-hidden="true"></i>
 
-                  <a style={{ fontWeight: "bolder" }}
+                  <a
+                    style={{ fontWeight: "bolder" }}
                     href="https://feebook.southindianbank.com/FeeBookUser/org?id=7"
                     className="text-decoration-none text-white"
                   >
