@@ -600,7 +600,7 @@
   width: 40px;
   height: 40px;
   line-height: 40px;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 1.5em;
   margin: 3px;
   border-radius: 50%;
@@ -725,7 +725,7 @@
   font-size: 12px;
   text-transform: uppercase;
   color: #9a9a9a;
-  font-weight: 400;
+  font-weight: 500;
   padding-bottom: 5px;
   padding-top: 10px;
 }
@@ -2886,7 +2886,7 @@ textarea {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Montserrat", "Helvetica", Arial, sans-serif;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 h1,
@@ -3091,7 +3091,7 @@ blockquote small {
   border-left: 0 none;
   border-bottom: 1px solid #ccc5b9;
   border-top: 1px solid #ccc5b9;
-  font-weight: 300;
+  font-weight: 500;
   margin: 15px 0 10px;
   text-align: center;
 }
@@ -3110,7 +3110,7 @@ blockquote small {
 body {
   color: #66615b;
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 500;
   font-family: "Montserrat", "Helvetica", Arial, sans-serif;
 }
 
@@ -3393,7 +3393,7 @@ License - nucleoapp.com/license/
     url("~assets/fonts/nucleo-icons.woff2") format("woff2"),
     url("~assets/fonts/nucleo-icons.woff") format("woff"),
     url("~assets/fonts/nucleo-icons.ttf") format("truetype");
-  font-weight: normal;
+  font-weight: bolder;
   font-style: normal;
 }
 
@@ -4808,7 +4808,7 @@ License - nucleoapp.com/license/
 
 .tooltip {
   font-size: 12px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .tooltip-inner {
@@ -4939,7 +4939,7 @@ License - nucleoapp.com/license/
   border-radius: 4px;
   background-color: #ffffff;
   color: #66615b;
-  font-weight: 400;
+  font-weight: 500;
   padding: 0;
   z-index: 1031;
   -webkit-box-shadow: none;
@@ -4951,7 +4951,7 @@ License - nucleoapp.com/license/
   background-color: #fffcf5;
   border-bottom: 0 none;
   font-size: 15px;
-  font-weight: normal;
+  font-weight: bolder;
   line-height: 22px;
   padding: 15px 15px 0px 15px;
   margin: 0;
@@ -5482,7 +5482,7 @@ License - nucleoapp.com/license/
 
 .footer nav > ul {
   list-style: none;
-  font-weight: normal;
+  font-weight: bolder;
 }
 
 .footer nav > ul > li {
