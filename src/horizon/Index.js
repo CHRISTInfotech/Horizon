@@ -300,32 +300,16 @@ function MainIndex() {
                 </h2>
                 <p className="text-justify">
                   The Lavasa campus is nestled within the Sahyadri mountains. In
-                  its quiet seclusion, the campus offers an ideal environment
-                  amid a most pristine natural setting. CHRIST Lavasa promotes a
-                  culture that embodies the philosophy of ‘excellence and
-                  service’ with state-of-the-art infrastructure, quality faculty
-                  and a platform where learners can spread their wings and
-                  discover their true potential. Modelled after Italy’s
+                  its quiet seclusion, the campus offers an ideal environment in
+                  the midst of a most pristine natural setting. CHRIST Lavasa
+                  promotes a culture that embodies the philosophy of ‘excellence
+                  and service’ with state-of-the-art infrastructure, quality
+                  faculty and a platform where learners can spread their wings
+                  and discover their true potential. Modelled after Italy’s
                   Portofino, Lavasa is unique in many ways. The promenade and
                   the various eateries and outlets it has to offer provide the
                   students with a chance to indulge in a distinct experience
                   that is far removed from the crowd and buzz of city life.
-                </p>
-              </Col>
-              <Col md={12}>
-                <h2
-                  className="text-right mt-5 mb-3"
-                  style={{ fontWeight: "bolder" }}
-                >
-                  CHRIST Consulting
-                </h2>
-                <p className="text-justify">
-                  CHRIST Consulting is the Consultancy wing of CHRIST (Deemed to
-                  be University) and is a results-driven business consultancy
-                  centre. We design and deliver exceptional solutions to achieve
-                  organisational objectives. We are a group of subject matter
-                  experts who pool in resources from our respective domains to
-                  help in problem-solving and successful goal achievement.
                 </p>
               </Col>
               <Col md={12}>
@@ -346,8 +330,24 @@ function MainIndex() {
                   objective is to provide an environment to experience and learn
                   through a platform for self-expression only adds more value.
                   The Centre since its inception in November 2022, has organised
-                  learning programs through workshops, training, and expert
+                  learning programs through workshops, training and expert
                   talks.
+                </p>
+              </Col>
+              <Col md={12}>
+                <h2
+                  className="text-right mt-5 mb-3"
+                  style={{ fontWeight: "bolder" }}
+                >
+                  CHRIST Consulting
+                </h2>
+                <p className="text-justify">
+                  CHRIST Consulting is the Consultancy wing of CHRIST (Deemed to
+                  be University) and is a results-driven business consultancy
+                  centre. We design and deliver exceptional solutions to achieve
+                  organisational objectives. We are a group of subject matter
+                  experts who pool in resources from our respective domains to
+                  help in problem-solving and successful goal achievement.
                 </p>
               </Col>
             </Row>
@@ -403,7 +403,7 @@ function MainIndex() {
                     minWidth: "350px",
                   }}
                   alt="..."
-                  src={require("assets/img/horizon/agni.png")}
+                  src={require("assets/img/horizon/agni1.png")}
                 />
               </Col>
 
@@ -416,7 +416,7 @@ function MainIndex() {
                 </h3>
                 <p className="text-justify">
                   ‘Fire’, the energising principle, provides us with a starting
-                  point to examine the practise of Agility and the mindset which
+                  point to examine the practice of Agility and the mindset which
                   enables this creative principle to come alive. We mindfully
                   reexamine our neural pathways which empowers us to apply a
                   design oriented approach to the Art of Agility in enterprise
@@ -449,7 +449,7 @@ function MainIndex() {
                     minHeight: "197px",
                     minWidth: "350px",
                   }}
-                  src={require("assets/img/horizon/bhoomi.png")}
+                  src={require("assets/img/horizon/bhoomi1.png")}
                 />
               </Col>
             </Row>

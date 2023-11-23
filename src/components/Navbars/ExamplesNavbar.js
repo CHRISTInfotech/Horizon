@@ -60,7 +60,7 @@ function ExamplesNavbar() {
             title="CHRIST"
             tag={Link}
           >
-            HORIZON
+           Kṣitija - HORIZON
           </NavbarBrand>
           <button
             aria-expanded={navbarCollapse}
