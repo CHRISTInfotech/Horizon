@@ -51,41 +51,41 @@ const items = [
   },
 ];
 
-const items1 = [
-  {
-    src: require("assets/images/campus/1.JPG"),
-  },
-  {
-    src: require("assets/images/campus/2.JPG"),
-  },
-  {
-    src: require("assets/images/campus/3.jpg"),
-  },
-  {
-    src: require("assets/images/campus/7.jpg"),
-  },
-  {
-    src: require("assets/images/campus/5.JPG"),
-  },
-];
+// const items1 = [
+//   {
+//     src: require("assets/images/campus/1.JPG"),
+//   },
+//   {
+//     src: require("assets/images/campus/2.JPG"),
+//   },
+//   {
+//     src: require("assets/images/campus/3.jpg"),
+//   },
+//   {
+//     src: require("assets/images/campus/7.jpg"),
+//   },
+//   {
+//     src: require("assets/images/campus/5.JPG"),
+//   },
+// ];
 
-const items2 = [
-  {
-    src: require("assets/images/lavasa/1.jpg"),
-  },
-  {
-    src: require("assets/images/lavasa/2.JPG"),
-  },
-  {
-    src: require("assets/images/lavasa/14.JPG"),
-  },
-  {
-    src: require("assets/images/lavasa/16.jpg"),
-  },
-  {
-    src: require("assets/images/lavasa/11.jpg"),
-  },
-];
+// const items2 = [
+//   {
+//     src: require("assets/images/lavasa/1.jpg"),
+//   },
+//   {
+//     src: require("assets/images/lavasa/2.JPG"),
+//   },
+//   {
+//     src: require("assets/images/lavasa/14.JPG"),
+//   },
+//   {
+//     src: require("assets/images/lavasa/16.jpg"),
+//   },
+//   {
+//     src: require("assets/images/lavasa/11.jpg"),
+//   },
+// ];
 
 function MainIndex() {
   document.documentElement.classList.remove("nav-open");
@@ -468,7 +468,7 @@ function MainIndex() {
               Key Speaker Profiles
             </h2>
             <Row className="justify-content-center">
-              <Col md="4">
+              <Col md="3">
                 <Card className="card-profile card-plain">
                   <div className="card-avatar">
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>
@@ -538,7 +538,74 @@ function MainIndex() {
                   </CardFooter> */}
                 </Card>
               </Col>
-              <Col md="4">
+              <Col md="3">
+                <Card className="card-profile card-plain">
+                  <div className="card-avatar">
+                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <img
+                        alt="..."
+                        src={require("assets/images/persons/Gopalakrishnan.png")}
+                      />
+                    </a>
+                  </div>
+                  <CardBody>
+                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <div className="author">
+                        <CardTitle
+                          tag="h4"
+                          className="text-neutral"
+                          style={{ color: "#ffffff", fontWeight: "bolder" }}
+                        >
+                          Mr R Gopalakrishnan
+                        </CardTitle>
+                        {/* <h6 className="card-category">Designer</h6> */}
+                      </div>
+                    </a>
+                    <p
+                      className="card-description text-justify"
+                      style={{ color: "#ffffff" }}
+                    >
+                      He has served as Chairman of Unilever Arabia, as MD of
+                      Brooke Bond Lipton and Vice Chairman of Hindustan Lever,
+                      as director of Tata Sons and several Tata companies and
+                      also as an independent director of Press Trust of India
+                      (PTI). An author of 17 books, he serves as non – executive
+                      chairman of Castrol India. An alumni of IIT Kharagpur, he
+                      has attended the Advanced Management Program at Harvard
+                      Business School. He has been a professional manager since
+                      1967. He is actively engaged in both instructional and
+                      inspirational speaking.
+                    </p>
+                  </CardBody>
+                  {/* <CardFooter className="text-center">
+                    <Button
+                      className="btn-just-icon btn-neutral"
+                      color="link"
+                      href="#pablo"
+                      onClick={(e) => e.preventDefault()}
+                    >
+                      <i className="fa fa-twitter" />
+                    </Button>
+                    <Button
+                      className="btn-just-icon btn-neutral ml-1"
+                      color="link"
+                      href="#pablo"
+                      onClick={(e) => e.preventDefault()}
+                    >
+                      <i className="fa fa-google-plus" />
+                    </Button>
+                    <Button
+                      className="btn-just-icon btn-neutral ml-1"
+                      color="link"
+                      href="#pablo"
+                      onClick={(e) => e.preventDefault()}
+                    >
+                      <i className="fa fa-linkedin" />
+                    </Button>
+                  </CardFooter> */}
+                </Card>
+              </Col>
+              <Col md="3">
                 <Card className="card-profile card-plain">
                   <div className="card-avatar">
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>
@@ -605,7 +672,7 @@ function MainIndex() {
                   </CardFooter> */}
                 </Card>
               </Col>
-              <Col md="4">
+              <Col md="3">
                 <Card className="card-profile card-plain">
                   <div className="card-avatar">
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>
@@ -1017,7 +1084,7 @@ function MainIndex() {
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>
                       <img
                         alt="..."
-                        src={require("assets/images/persons/KiranMariam.png")}
+                        src={require("assets/images/persons/Kiran.png")}
                       />
                     </a>
                   </div>
@@ -1079,7 +1146,24 @@ function MainIndex() {
               </h3>
             </div>
             <Row>
-              <Col className="ml-auto mr-auto mb-3" md="4">
+              <Col className="ml-auto mr-auto mb-3" md="6">
+                <div className="title">
+                  <h5 style={{ fontWeight: "bolder", color: "#ffffff" }}>
+                    Accomadation
+                  </h5>
+                  <p
+                    style={{ color: "#ffffff" }}
+                    className="card-description text-justify"
+                  >
+                    Our rooms are designed to offer comfort and sophistication
+                    for single occupancy.Indulge in the sweet delight of your
+                    lavasa retreat experience as we provide an array of assorted
+                    cookies, adding a delightful touch to your stay. Immerse
+                    yourself in relaxation with all the amenities for a
+                    rejuvenating retreat. At Lavasa Executive Wellness Retreat,
+                    enjoy tailored treatment that caters to all of your needs.
+                  </p>
+                </div>
                 <Card className="page-carousel">
                   <Carousel
                     activeIndex={activeIndex}
@@ -1102,7 +1186,7 @@ function MainIndex() {
                             src={item.src}
                             alt={item.altText}
                             className="img-fluid"
-                            style={{ maxHeight: "197px" }}
+                           
                           />
                           <CarouselCaption
                             captionText={item.caption}
@@ -1139,144 +1223,27 @@ function MainIndex() {
                     </a>
                   </Carousel>
                 </Card>
+              </Col>
+              <Col className="ml-auto mr-auto mb-3" md="6">
+                
                 <div className="title">
                   <h5 style={{ fontWeight: "bolder", color: "#ffffff" }}>
-                    Accomadation - Images
+                  TRANSPORTATION
                   </h5>
-                </div>
-              </Col>
-              <Col className="ml-auto mr-auto mb-3" md="4">
-                <Card className="page-carousel">
-                  <Carousel
-                    activeIndex={activeIndex}
-                    next={next}
-                    previous={previous}
+                  <p
+                    style={{ color: "#ffffff" }}
+                    className="card-description text-justify"
                   >
-                    <CarouselIndicators
-                      items={items1}
-                      activeIndex={activeIndex}
-                      onClickHandler={goToIndex}
-                    />
-                    {items1.map((item) => {
-                      return (
-                        <CarouselItem
-                          onExiting={onExiting}
-                          onExited={onExited}
-                          key={item.src}
-                        >
-                          <img
-                            src={item.src}
-                            alt={item.altText}
-                            className="img-fluid"
-                            style={{ maxHeight: "197px" }}
-                          />
-                          <CarouselCaption
-                            captionText={item.caption}
-                            captionHeader=""
-                          />
-                        </CarouselItem>
-                      );
-                    })}
-                    <a
-                      className="left carousel-control carousel-control-prev"
-                      data-slide="prev"
-                      href="#pablo"
-                      onClick={(e) => {
-                        e.preventDefault();
-                        previous();
-                      }}
-                      role="button"
-                    >
-                      <span className="fa fa-angle-left" />
-                      <span className="sr-only">Previous</span>
-                    </a>
-                    <a
-                      className="right carousel-control carousel-control-next"
-                      data-slide="next"
-                      href="#pablo"
-                      onClick={(e) => {
-                        e.preventDefault();
-                        next();
-                      }}
-                      role="button"
-                    >
-                      <span className="fa fa-angle-right" />
-                      <span className="sr-only">Next</span>
-                    </a>
-                  </Carousel>
-                </Card>
-                <div className="title">
-                  <h5 style={{ fontWeight: "bolder", color: "#ffffff" }}>
-                    Campus - Images
-                  </h5>
+                   Experience a smooth journey to Lavasa with
+                    our transportation service. Our hassle-free round-trip
+                    transportation to and from Lavasa is only a 2-hour journey
+                    from Pune. Cab arrangements will be made in accordance with
+                    your arrival times, ensuring a smooth commute to this
+                    picturesque destination.
+                  </p>
                 </div>
               </Col>
-              <Col className="ml-auto mr-auto mb-3" md="4">
-                <Card className="page-carousel">
-                  <Carousel
-                    activeIndex={activeIndex}
-                    next={next}
-                    previous={previous}
-                  >
-                    <CarouselIndicators
-                      items={items2}
-                      activeIndex={activeIndex}
-                      onClickHandler={goToIndex}
-                    />
-                    {items2.map((item) => {
-                      return (
-                        <CarouselItem
-                          onExiting={onExiting}
-                          onExited={onExited}
-                          key={item.src}
-                        >
-                          <img
-                            src={item.src}
-                            alt={item.altText}
-                            className="img-fluid"
-                            style={{ maxHeight: "197px", minHeight: "197px" }}
-                          />
-                          <CarouselCaption
-                            captionText={item.caption}
-                            captionHeader=""
-                          />
-                        </CarouselItem>
-                      );
-                    })}
-                    <a
-                      className="left carousel-control carousel-control-prev"
-                      data-slide="prev"
-                      href="#pablo"
-                      onClick={(e) => {
-                        e.preventDefault();
-                        previous();
-                      }}
-                      role="button"
-                    >
-                      <span className="fa fa-angle-left" />
-                      <span className="sr-only">Previous</span>
-                    </a>
-                    <a
-                      className="right carousel-control carousel-control-next"
-                      data-slide="next"
-                      href="#pablo"
-                      onClick={(e) => {
-                        e.preventDefault();
-                        next();
-                      }}
-                      role="button"
-                    >
-                      <span className="fa fa-angle-right" />
-                      <span className="sr-only">Next</span>
-                    </a>
-                  </Carousel>
-                </Card>
-                <div className="title">
-                  <h5 style={{ fontWeight: "bolder", color: "#ffffff" }}>
-                    Lavasa - Images
-                  </h5>
-                </div>
-              </Col>
+              
             </Row>
           </Container>
         </div>
@@ -1574,31 +1541,16 @@ function MainIndex() {
                 </h3>
                 <p className="text-justify">
                   <span style={{ fontWeight: "bold" }}>
-                    Rs 25,000 + GST per delegate
+                    Rs 25,999 + GST per delegate
                   </span>{" "}
                   - (Includes passes to all sessions, full board accommodation
                   including all meals and refreshments)
                 </p>
-                <p>
-                  <span className="" style={{ fontWeight: "bold" }}>
-                    1 day pass - Rs 14,000 + GST -
-                  </span>{" "}
-                  (Includes the sessions for that day, food and refreshments)
-                </p>
-                <p style={{ fontWeight: "bolder" }}>
-                  For a truly holistic experience, we recommend you joining us
-                  for the entire visionary voyage.
-                </p>
-                <p className="text-justify">
-                  For Corporate Group Discounts{" "}
-                  <span style={{ fontWeight: "bold" }}>
-                    Please call: 080 4012 9724 / 9157 / 9958 / 9700
-                  </span>
-                </p>
+
                 <p className="text-justify" style={{ fontWeight: "bolder" }}>
                   To avail Early Bird Offer - Avail entry for
                   <span style={{ fontWeight: "bold" }}>
-                    Rs 19,000 + GST Book before 30th November, 2023.
+                    Rs 22,999 + GST Book before 10th December, 2023.
                   </span>
                   .
                 </p>
@@ -1610,13 +1562,32 @@ function MainIndex() {
                   <i className="fa fa-rupee" aria-hidden="true"></i>
 
                   <a
+                    target="_blank"
                     style={{ fontWeight: "bolder" }}
                     href="https://feebook.southindianbank.com/FeeBookUser/org?id=7"
                     className="text-decoration-none text-white"
+                    rel="noreferrer"
                   >
                     Payment Link
                   </a>
                 </Button>
+                <p className="mt-4">
+                  Instructions:
+                  <ol>
+                    <li>Click on Payment Link.</li>
+                    <li>
+                      Select Institution name as CHRIST (Deemed to be
+                      University) - LAVASA CAMPUS
+                    </li>
+                    <li>Select Fee name as EXECUTIVE WELLNESS RETREAT</li>
+                    <li>Enter your desired category.</li>
+                    <li>Enter the Captcha and press Continue.</li>
+                    <li>
+                      Enter your details such as Name, Address, Pincode etc.
+                    </li>
+                    <li>Select a Payment method and pay.</li>
+                  </ol>
+                </p>
               </Col>
             </Row>
           </Container>

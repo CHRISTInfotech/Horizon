@@ -1,7 +1,7 @@
 import React from "react";
 
 // reactstrap components
-import { Container } from "reactstrap";
+import { Container,Button } from "reactstrap";
 
 // core components
 
@@ -41,7 +41,7 @@ function LandingPageHeader() {
               Harnessing Our Resources, Inspiring Zeal, Opening New Doors
             </h3>
             <h5 className="mt-3">
-              mmerse yourself in an exclusive Executive Wellness Retreat
+              Immerse yourself in an exclusive Executive Wellness Retreat
               meticulously curated amidst the breathtaking embrace of nature’s
               bounty, nestled within lush green valleys and mountain vistas. The
               retreat provides you with an ultimate experience where you relax
@@ -49,19 +49,15 @@ function LandingPageHeader() {
               future!
             </h5>
             <br />
-            {/* <Button
-              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-              className="btn-round mr-1"
-              color="neutral"
-              target="_blank"
-              outline
-            >
-              <i className="fa fa-play" />
-              Watch video
-            </Button>
-            <Button className="btn-round" color="neutral" type="button" outline>
-              Download
-            </Button> */}
+            <Button className="btn-round" color="dark">
+                  <a
+                    href="#Registration"
+                    className="text-decoration-none text-white"
+                    
+                  >
+                    Registration
+                  </a>
+                </Button>
           </div>
         </Container>
       </div>
