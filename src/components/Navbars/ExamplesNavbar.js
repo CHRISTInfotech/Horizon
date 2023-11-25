@@ -114,7 +114,7 @@ function ExamplesNavbar() {
             </NavItem>
             <NavItem>
               <NavLink
-                href={require("assets/docs/Final Lavasa Retreat workbook v0.pdf")}
+                href={require("assets/docs/Final Lavasa Retreat workbook v1.pdf")}
                 download
                 target="_blank"
               >

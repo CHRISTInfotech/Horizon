@@ -146,7 +146,7 @@ function MainIndex() {
                 <br />
                 <Button className="btn-round" color="info">
                   <a
-                    href={require("assets/docs/Final Lavasa Retreat workbook v0.pdf")}
+                    href={require("assets/docs/Final Lavasa Retreat workbook v1.pdf")}
                     className="text-decoration-none text-white"
                     download
                   >
