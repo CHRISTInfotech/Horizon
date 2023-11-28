@@ -623,7 +623,7 @@ function MainIndex() {
                           className="text-neutral"
                           style={{ color: "#ffffff", fontWeight: "bolder" }}
                         >
-                          Sam Rufus
+                          Mr Sam Rufus
                         </CardTitle>
                         {/* <h6 className="card-category">Designer</h6> */}
                       </div>
@@ -690,7 +690,7 @@ function MainIndex() {
                           className="text-neutral"
                           style={{ color: "#ffffff", fontWeight: "bolder" }}
                         >
-                          Aman Zaidi
+                          Mr Aman Zaidi
                         </CardTitle>
                         {/* <h6 className="card-category">Developer</h6> */}
                       </div>
@@ -759,7 +759,7 @@ function MainIndex() {
                           style={{ color: "#ffffff", fontWeight: "bolder" }}
                           tag="h4"
                         >
-                          Arpita Ghosh
+                          Ms Arpita Ghosh
                         </CardTitle>
                         {/* <h6 className="card-category">
                           Director and Dean, Christ University, Pune, Lavasa,
@@ -827,7 +827,7 @@ function MainIndex() {
                           className="text-neutral"
                           style={{ color: "#ffffff", fontWeight: "bolder" }}
                         >
-                          Dr Jibrael Jos
+                          Mr Dr Jibrael Jos
                         </CardTitle>
                         {/* <h6 className="card-category">Designer</h6> */}
                       </div>
@@ -895,7 +895,7 @@ function MainIndex() {
                           className="text-neutral"
                           style={{ color: "#ffffff", fontWeight: "bolder" }}
                         >
-                          Anamika Viswanathan
+                          Ms Anamika Viswanathan
                         </CardTitle>
                         {/* <h6 className="card-category">Developer</h6> */}
                       </div>
@@ -962,7 +962,7 @@ function MainIndex() {
                           className="text-neutral"
                           style={{ color: "#ffffff", fontWeight: "bolder" }}
                         >
-                          Dr Anil D’Souza
+                          Mr Dr Anil D’Souza
                         </CardTitle>
                         {/* <h6 className="card-category">Developer</h6> */}
                       </div>
@@ -1038,7 +1038,7 @@ function MainIndex() {
                           className="text-neutral"
                           style={{ color: "#000000", fontWeight: "bolder" }}
                         >
-                          Shrutika Mishra
+                          Ms Dr Shrutika Mishra
                         </CardTitle>
                         {/* <h6 className="card-category">Developer</h6> */}
                       </div>
@@ -1148,8 +1148,14 @@ function MainIndex() {
             <Row>
               <Col className="ml-auto mr-auto mb-3" md="6">
                 <div className="title">
-                  <h5 style={{ fontWeight: "bolder", color: "#ffffff" }}>
-                    Accomadation
+                  <h5
+                    style={{
+                      fontWeight: "bolder",
+                      color: "#ffffff",
+                      textTransform: "uppercase",
+                    }}
+                  >
+                    Accommodation
                   </h5>
                   <p
                     style={{ color: "#ffffff" }}
@@ -1186,7 +1192,6 @@ function MainIndex() {
                             src={item.src}
                             alt={item.altText}
                             className="img-fluid"
-                           
                           />
                           <CarouselCaption
                             captionText={item.caption}
@@ -1225,17 +1230,16 @@ function MainIndex() {
                 </Card>
               </Col>
               <Col className="ml-auto mr-auto mb-3" md="6">
-                
                 <div className="title">
                   <h5 style={{ fontWeight: "bolder", color: "#ffffff" }}>
-                  TRANSPORTATION
+                    TRANSPORTATION
                   </h5>
                   <p
                     style={{ color: "#ffffff" }}
                     className="card-description text-justify"
                   >
-                   Experience a smooth journey to Lavasa with
-                    our transportation service. Our hassle-free round-trip
+                    Experience a smooth journey to Lavasa with our
+                    transportation service. Our hassle-free round-trip
                     transportation to and from Lavasa is only a 2-hour journey
                     from Pune. Cab arrangements will be made in accordance with
                     your arrival times, ensuring a smooth commute to this
@@ -1243,7 +1247,6 @@ function MainIndex() {
                   </p>
                 </div>
               </Col>
-              
             </Row>
           </Container>
         </div>
@@ -1253,7 +1256,7 @@ function MainIndex() {
               <Col md="12">
                 <div className="title">
                   <h3 className="text-center" style={{ fontWeight: "bold" }}>
-                    Program Itinerary
+                    Program Schedule
                   </h3>
                 </div>
                 <div className="nav-tabs-navigation">
@@ -1552,7 +1555,6 @@ function MainIndex() {
                   <span style={{ fontWeight: "bold" }}>
                     Rs 22,999 + GST Book before 10th December, 2023.
                   </span>
-                  .
                 </p>
                 <Button
                   className="btn-round ml-1 mt-3"
