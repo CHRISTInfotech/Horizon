@@ -623,7 +623,7 @@ function MainIndex() {
                           className="text-neutral"
                           style={{ color: "#ffffff", fontWeight: "bolder" }}
                         >
-                          Mr Dr Anil D’Souza
+                          Dr Anil D’Souza
                         </CardTitle>
                         {/* <h6 className="card-category">Developer</h6> */}
                       </div>
@@ -826,7 +826,7 @@ function MainIndex() {
                           className="text-neutral"
                           style={{ color: "#ffffff", fontWeight: "bolder" }}
                         >
-                          Mr Dr Jibrael Jos
+                          Dr Jibrael Jos
                         </CardTitle>
                         {/* <h6 className="card-category">Designer</h6> */}
                       </div>
@@ -1039,7 +1039,7 @@ function MainIndex() {
                           className="text-neutral"
                           style={{ color: "#000000", fontWeight: "bolder" }}
                         >
-                          Ms Dr Shrutika Mishra
+                          Dr Shrutika Mishra
                         </CardTitle>
                         {/* <h6 className="card-category">Developer</h6> */}
                       </div>
