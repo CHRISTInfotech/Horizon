@@ -611,7 +611,7 @@ function MainIndex() {
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>
                       <img
                         alt="..."
-                        src={require("assets/images/persons/SamRufus.png")}
+                        src={require("assets/images/persons/AnilDSouza.png")}
                       />
                     </a>
                   </div>
@@ -623,25 +623,24 @@ function MainIndex() {
                           className="text-neutral"
                           style={{ color: "#ffffff", fontWeight: "bolder" }}
                         >
-                          Mr Sam Rufus
+                          Mr Dr Anil D’Souza
                         </CardTitle>
-                        {/* <h6 className="card-category">Designer</h6> */}
+                        {/* <h6 className="card-category">Developer</h6> */}
                       </div>
                     </a>
                     <p
                       className="card-description text-justify"
                       style={{ color: "#ffffff" }}
                     >
-                      He is a seasoned leadership and creativity coach, has 3
-                      decades of experience in Advertising. His case study on
-                      'Repositioning of Milk Maid' finds pride of place in
-                      'Brands & Brand Repositioning'. A visiting faculty at IIM,
-                      C and IMI, Delhi, Sam developed his program 'Growing from
-                      Good to Great' which won the 2023 Top Award for Training
-                      awarded by the Ministry of Labour, Govt. of Saudi Arabia.
-                      Sam travels widely ‘Enriching People In Creativity' in
-                      fulfilling the acronym EPIC, a leadership training
-                      initiative which he founded.
+                      Dr Anil D’Souza, 3 decades of Industry practise in BFSI,
+                      Consulting and Education. Areas of engagement include
+                      leadership coaching, developing ‘enterprise purpose &
+                      culture maps’, culture diagnostics, branding and designing
+                      performance management solutions. Dr. D’Souza holds
+                      accreditations in counselling and clinical therapy,
+                      leadership coaching, Transactional Analysis, MBTI,
+                      Assessment and Development Centres, Design Thinking,
+                      Creativity (De Bono), Theatre & Dramaturgy in Education.
                     </p>
                   </CardBody>
                   {/* <CardFooter className="text-center">
@@ -943,14 +942,13 @@ function MainIndex() {
                   </CardFooter> */}
                 </Card>
               </Col>
-
               <Col md="3">
                 <Card className="card-profile card-plain">
                   <div className="card-avatar">
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>
                       <img
                         alt="..."
-                        src={require("assets/images/persons/AnilDSouza.png")}
+                        src={require("assets/images/persons/SamRufus.png")}
                       />
                     </a>
                   </div>
@@ -962,24 +960,25 @@ function MainIndex() {
                           className="text-neutral"
                           style={{ color: "#ffffff", fontWeight: "bolder" }}
                         >
-                          Mr Dr Anil D’Souza
+                          Mr Sam Rufus
                         </CardTitle>
-                        {/* <h6 className="card-category">Developer</h6> */}
+                        {/* <h6 className="card-category">Designer</h6> */}
                       </div>
                     </a>
                     <p
                       className="card-description text-justify"
                       style={{ color: "#ffffff" }}
                     >
-                      Dr Anil D’Souza, 3 decades of Industry practise in BFSI,
-                      Consulting and Education. Areas of engagement include
-                      leadership coaching, developing ‘enterprise purpose &
-                      culture maps’, culture diagnostics, branding and designing
-                      performance management solutions. Dr. D’Souza holds
-                      accreditations in counselling and clinical therapy,
-                      leadership coaching, Transactional Analysis, MBTI,
-                      Assessment and Development Centres, Design Thinking,
-                      Creativity (De Bono), Theatre & Dramaturgy in Education.
+                      He is a seasoned leadership and creativity coach, has 3
+                      decades of experience in Advertising. His case study on
+                      'Repositioning of Milk Maid' finds pride of place in
+                      'Brands & Brand Repositioning'. A visiting faculty at IIM,
+                      C and IMI, Delhi, Sam developed his program 'Growing from
+                      Good to Great' which won the 2023 Top Award for Training
+                      awarded by the Ministry of Labour, Govt. of Saudi Arabia.
+                      Sam travels widely ‘Enriching People In Creativity' in
+                      fulfilling the acronym EPIC, a leadership training
+                      initiative which he founded.
                     </p>
                   </CardBody>
                   {/* <CardFooter className="text-center">
@@ -1010,6 +1009,8 @@ function MainIndex() {
                   </CardFooter> */}
                 </Card>
               </Col>
+
+              
             </Row>
           </Container>
         </div>
@@ -1329,7 +1330,7 @@ function MainIndex() {
                       style={{ color: "#000000" }}
                     >
                       <div className="col-6 d-flex justify-content-end">
-                        09:40 AM - 09:45 AM
+                      07.30 pm - 08.30 pm
                       </div>
                       <div className="col text-left">
                         <b>Bonfire Bonding - Unfolding the Visionary Voyage</b>
@@ -1401,7 +1402,9 @@ function MainIndex() {
                       <div className="col text-left">
                         <b>Leading the Future</b>
                         <br />
-                        <p>Address by the Chief Guest</p>
+                        <p>Address by the Chief Guest <br/>
+                        Mr R Gopalakrishnan
+                        </p>
                       </div>
                     </div>
                     <div
