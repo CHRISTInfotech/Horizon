@@ -1440,7 +1440,7 @@ function MainIndex() {
                         02.00 pm - 04.00 pm
                       </div>
                       <div className="col text-left">
-                        <b>Leading through Positive Psychology</b>
+                        <b>Strength-based Approaches for Peak Performance</b>
                         <br />
                         <p>Mr Aman Zaidi</p>
                         Founder - Fortius; Partner - OD Alternatives, Co-
