@@ -758,7 +758,7 @@ function MainIndex() {
                           style={{ color: "#ffffff", fontWeight: "bolder" }}
                           tag="h4"
                         >
-                          Ms Arpita Ghosh
+                          Dr Arpita Ghosh
                         </CardTitle>
                         {/* <h6 className="card-category">
                           Director and Dean, Christ University, Pune, Lavasa,
@@ -1515,7 +1515,7 @@ function MainIndex() {
                       <div className="col text-left">
                         <b>Human-Centered Value Creation through Art Therapy</b>
                         <br />
-                        <p>Ms Arpita Ghosh</p>
+                        <p>Dr Arpita Ghosh</p>
                         Head - Counselling & Health Services & Head -
                         Experiential Learning, CHRIST, Lavasa
                       </div>
