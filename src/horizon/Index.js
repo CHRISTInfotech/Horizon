@@ -759,7 +759,7 @@ function MainIndex() {
                           style={{ color: "#ffffff", fontWeight: "bolder" }}
                           tag="h4"
                         >
-                          Dr Arpita Ghosh
+                          Ms Arpita Ghosh
                         </CardTitle>
                         {/* <h6 className="card-category">
                           Director and Dean, Christ University, Pune, Lavasa,
@@ -1411,13 +1411,14 @@ function MainIndex() {
                       style={{ color: "#000000" }}
                     >
                       <div className="col-6 d-flex justify-content-end">
-                        11.45 am - 01.00 pm
+                        11.45 am - 01.30 pm
                       </div>
                       <div className="col text-left">
-                        <b>Leadership Design for Enterprise Agility</b>
+                        <b>Creativity at the Workplace</b>
                         <br />
-                        <p>Dr Anil D’Souza</p>
-                        Assoc. Professor - School of Business & Management
+                        <p>Mr Sam Rufus</p>
+                        Founder Director - EPIC Seasoned Adman (J. Walter
+                        Thompson, Saatchi)
                       </div>
                     </div>
                     <div
@@ -1425,7 +1426,7 @@ function MainIndex() {
                       style={{ color: "#000000" }}
                     >
                       <div className="col-6 d-flex justify-content-end">
-                        01.00 pm - 02.00 pm
+                        01.30 pm - 02.30 pm
                       </div>
                       <div className="col text-left">
                         <b>Lunch</b>
@@ -1436,7 +1437,7 @@ function MainIndex() {
                       style={{ color: "#000000" }}
                     >
                       <div className="col-6 d-flex justify-content-end">
-                        02.00 pm - 04.00 pm
+                        02.30 pm - 04.30 pm
                       </div>
                       <div className="col text-left">
                         <b>Strength-based Approaches for Peak Performance</b>
@@ -1451,7 +1452,7 @@ function MainIndex() {
                       style={{ color: "#000000" }}
                     >
                       <div className="col-6 d-flex justify-content-end">
-                        04.00 pm - 06.30 pm
+                        04.30 pm - 06.30 pm
                       </div>
                       <div className="col text-left">
                         <b>Networking & Personal Time</b>
@@ -1497,11 +1498,10 @@ function MainIndex() {
                         09.25 am - 11.30 am
                       </div>
                       <div className="col text-left">
-                        <b>Creativity at the Workplace</b>
+                        <b>Leadership Design for Enterprise Agility</b>
                         <br />
-                        <p>Mr Sam Rufus</p>
-                        Founder Director - EPIC Seasoned Adman (J. Walter
-                        Thompson, Saatchi)
+                        <p>Dr Anil D’Souza</p>
+                        Assoc. Professor - School of Business & Management
                       </div>
                     </div>
                     <div
@@ -1514,7 +1514,7 @@ function MainIndex() {
                       <div className="col text-left">
                         <b>Human-Centered Value Creation through Art Therapy</b>
                         <br />
-                        <p>Dr Arpita Ghosh</p>
+                        <p>Ms Arpita Ghosh</p>
                         Head - Counselling & Health Services & Head -
                         Experiential Learning, CHRIST, Lavasa
                       </div>
