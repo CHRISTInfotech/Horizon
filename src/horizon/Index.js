@@ -455,6 +455,36 @@ function MainIndex() {
             </Row>
           </Container>
         </div>
+        <div className="section section-neutral text-center">
+          <Container>
+            <h2 className="mb-4 mt-2" style={{ fontWeight: "bolder" }}>
+              Hear from our Speakers
+            </h2>
+
+            <Row className="justify-content-center">
+              <Col className="ms-auto me-auto" md="6">
+                <iframe
+                  title="samRuf"
+                  src="https://drive.google.com/file/d/1mdy16tehoj0IIxkKvjXejW3V4qmHx9g3/preview"
+                  allow="autoplay"
+                  height={300}
+                  width="100%"
+                ></iframe>
+                <p  className="fs-4">Mr Sam Rufus</p>
+              </Col>
+              <Col className="ms-auto me-auto" md="6">
+                <iframe
+                  title="ariptaGosh"
+                  height={300}
+                  width="100%"
+                  src="https://drive.google.com/file/d/1CDZw_EpfXtFUFIjRhl9gSBnxQf_PBszE/preview"
+                  allow="autoplay"
+                ></iframe>
+                <p className="fs-4">Ms Arpita Ghosh</p>
+              </Col>
+            </Row>
+          </Container>
+        </div>
         <div
           className="section section-blue text-center"
           id="speakers"
